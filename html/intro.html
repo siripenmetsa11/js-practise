@@ -48,5 +48,39 @@ let z2="4"
 let result3=z1*z2
 console.log(result3)
 
+let overs = "20";
+let balls = 6;
+let totalballs = overs*balls;
+console.log(totalballs)//120
 
+// let over = prompt("enter no.of overs");//if we give the number(20) in prompt the ans is 26 , if we give string the bans is naN
+// let ball = 6;
+// let totalnoofballs=Number(over)+ball;
+// console.log(totalnoofballs)
+
+let over = prompt("enter no.of overs"); //if we give the num it will multiply, if we give the string it will give naN
+let ball = 6;
+let totalnoofballs=Number(over)*ball;
+console.log(totalnoofballs)
+
+
+// let busTicket = prompt("enter busticket");
+// if (busTicket>=5000){
+//     console.log("people will bookticket")// if ticketprice is 5000 or above asw is people will bookticket
+// }
+// else {
+//     console.log("people will not bookticket")//if less 5000 this cond will excute
+// }    
+
+
+let busTicket = prompt("enter busticket");
+if (Number(busTicket)===5000){
+    console.log("people will bookticket")// it will check the datatype if we give the number the o/p is will bookticket
+}
+else {
+    console.log("people will not bookticket")//if we give the string this will excute
+}  
+
+let z=Boolean(2)
+console.log(z)
 </script>
