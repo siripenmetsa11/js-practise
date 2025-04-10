@@ -1,0 +1,77 @@
+<script>
+    //Even or Odd Checker
+    let number = prompt("enter number")
+    if(number%2==0){
+        console.log("It is even number")//if we give the even number in prompt this block will execute otherwise else block will execute.
+    }
+    else{
+        console.log("It is odd number")
+    }
+
+    //Temperature Alert
+    let Temperature = prompt("enter temp")
+    if(Temperature>=30)
+    {
+        console.log("its too hot")// if we give the temp >= 30 if block executes otherwise else block will execute.
+    }
+    else{
+        console.log("it's cool")
+    }
+
+    //Number Nature Checker
+    let num = prompt("enter a number");
+    if(num>0){
+        console.log("positive number")//if we give above 0 o/p is positive number below zero o/p is neg num.
+    }
+     else if(num<0){
+        console.log("negative number")
+    }
+    else{
+        console.log("zero")
+    }
+    
+    //Simple Grader
+    let marks = prompt("enter marks");
+    if(marks>=90){
+        console.log("gradeA") 
+    }
+    else if(marks>=80){
+        console.log("grade B")
+    }
+    else if(marks>=70){
+        console.log("grade C")
+    }
+    else{
+        console.log("fail")
+    }
+
+    //Traffic Signal using if-else
+    let color = prompt("enter color");
+    if(color == "red"){
+        console.log("Stop");
+    }
+    else if(color == "green"){
+        console.log("Go");
+    }
+    else if(color == "yellow")
+    {
+        console.log("Ready");
+    }
+    else{
+        console.log("no signal");
+    }
+
+    //
+    let number1 = prompt("enter a number");
+    let number2 = prompt("enter a number");
+    let number3 = prompt("enter a number");
+    if(number1>=number2 && number1>=number3){
+        console.log("number1 is largest")
+    }
+    else if(number2>=number1&&number2>=number3){
+        console.log("number2 is largest")
+    }
+    else{
+        console.log("number3 is largest")
+    }
+</script>
