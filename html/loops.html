@@ -1,0 +1,49 @@
+<script>
+    //Print Numbers 1 to 10Use a for loop to print numbers from 1 to 10.
+     for(let i=1;i<=10;i++)
+     console.log(i);
+
+    //Even Numbers from 1 to 20Use a while loop to print even numbers between 1 and 20.
+
+    let i=2;
+    while(i<=20){
+        console.log(i)
+        i+=2;
+    }
+    
+    //Check Odd or EvenUse a for loop from 1 to 10 and print whether each number is odd oreven using an if condition.
+    for(i=1;i<=10;i++){
+        if(i%2==0){
+            console.log(i+"-even")
+        }else{
+            console.log(i+"-odd")
+        }
+    }
+    //Countdown from 10 to 1Use a while loop to print numbers from 10 to 1
+    let j=10;
+    while(j>=1){
+        console.log(j);
+        j--;
+    }
+    //Multiplication Table of 5Use a for loop to print the multiplication table of 5 up to 10.
+    for(j=1;j<=10;j++){
+        console.log(`5 x ${j} = ${5*j}`);
+    }
+
+    //Sum of Even Numbers from 1 to 50Use a while loop and if condition to calculate the sum of even numbers between 1 and 50.
+    let k=1;
+    let sum =0;
+    while(k<=50){
+        if(k%2==0){
+            sum+=k;
+        }
+        k++;
+    }
+    console.log("sum of even numbers from 1to50" +sum )
+   //Numbers Divisible by 3 and 5 (1 to 100)Use a for loop with if conditions to print numbers divisible by both 3 and 5.
+    for(i=1;i<=100;i++){
+        if(i%3==0&&i%5==0){
+            console.log(i)
+        }
+    }
+</script>

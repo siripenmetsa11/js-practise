@@ -1,0 +1,22 @@
+<script>
+    try{
+        let result = divide(10,0)
+        console.log(result);
+    }
+    catch(a){
+        console.log(a.message);
+    } 
+  // example
+  function checkAge(age){
+    if(age<18){
+        throw new Error("you must be 18yrs old");
+    }
+    return "successfull"
+}
+    try{
+        let result1 = checkAge(15);
+        console.log(result1);
+    }catch(error){
+        console.log(error.message);
+    }
+</script>

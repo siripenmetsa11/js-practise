@@ -61,7 +61,7 @@
         console.log("no signal");
     }
 
-    //
+    //Largest of Three
     let number1 = prompt("enter a number");
     let number2 = prompt("enter a number");
     let number3 = prompt("enter a number");
@@ -74,4 +74,39 @@
     else{
         console.log("number3 is largest")
     }
+
+    //Grade with Else-if Ladder
+    let markss = prompt("enter marks")
+    if(markss>=90&&markss<=100){
+        console.log("Grade A")
+    }
+    else if(markss>=80&&markss<=89){
+        console.log("Grade B")
+    }
+    else if(markss>=70&&markss<=79){
+        console.log("Grade C")
+    }
+    else if(markss>=60&&marks<=69){
+        console.log("Grade D")
+    }
+    else{
+        console.log("fail")
+    }
+   //Traffic Signal using switch
+    let signal=prompt("enter signal colors")
+    switch (signal) {
+        case "red":
+            console.log("stop")
+            break;
+        case "yellow":
+            console.log("ready")
+            break;
+        case "green":
+            console.log("go")
+            break;    
+        default:
+            console.log("no signal")
+            break;
+    }
+
 </script>
